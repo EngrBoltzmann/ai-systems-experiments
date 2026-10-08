@@ -218,3 +218,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Secrets: never commit these
+.env
+.env.*
+*.key
+*.pem
+secrets/
+
+# Large files: model weights and datasets
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.onnx
+data/raw/
+models/
