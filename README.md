@@ -13,7 +13,7 @@ Companion repository to the YouTube channel **Engr Boltzmann**.
 ## Test machine
 
 - CPU: Intel Core i7-7600U (2 cores)
-- RAM: 16 GB DDR4-2133
+- RAM: 16 GiB installed (15.88 GiB usable)
 - GPU: none used locally (Intel HD 620, no CUDA)
 - Cloud GPUs are rented only for work that needs them, and are labelled in the results.
 
