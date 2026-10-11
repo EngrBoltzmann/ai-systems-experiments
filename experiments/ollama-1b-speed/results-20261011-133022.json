@@ -1,0 +1,134 @@
+{
+  "model": "llama3.2:1b",
+  "prompt": "Explain what a CPU cache is in three sentences.",
+  "summary": {
+    "n": 20,
+    "median": 17.02,
+    "mean": 17.12,
+    "stdev": 0.25,
+    "min": 16.83,
+    "max": 17.5
+  },
+  "runs": [
+    {
+      "eval_count": 108,
+      "eval_rate_tps": 17.47,
+      "load_s": 0.015,
+      "cpu_mhz_after": 2803
+    },
+    {
+      "eval_count": 108,
+      "eval_rate_tps": 17.41,
+      "load_s": 0.011,
+      "cpu_mhz_after": 2803
+    },
+    {
+      "eval_count": 108,
+      "eval_rate_tps": 17.45,
+      "load_s": 0.014,
+      "cpu_mhz_after": 2803
+    },
+    {
+      "eval_count": 108,
+      "eval_rate_tps": 17.5,
+      "load_s": 0.013,
+      "cpu_mhz_after": 2803
+    },
+    {
+      "eval_count": 108,
+      "eval_rate_tps": 17.49,
+      "load_s": 0.014,
+      "cpu_mhz_after": 2803
+    },
+    {
+      "eval_count": 108,
+      "eval_rate_tps": 17.47,
+      "load_s": 0.013,
+      "cpu_mhz_after": 2803
+    },
+    {
+      "eval_count": 108,
+      "eval_rate_tps": 17.01,
+      "load_s": 0.012,
+      "cpu_mhz_after": 2803
+    },
+    {
+      "eval_count": 108,
+      "eval_rate_tps": 17.02,
+      "load_s": 0.013,
+      "cpu_mhz_after": 2803
+    },
+    {
+      "eval_count": 108,
+      "eval_rate_tps": 17.04,
+      "load_s": 0.032,
+      "cpu_mhz_after": 2803
+    },
+    {
+      "eval_count": 108,
+      "eval_rate_tps": 16.99,
+      "load_s": 0.012,
+      "cpu_mhz_after": 2803
+    },
+    {
+      "eval_count": 108,
+      "eval_rate_tps": 16.9,
+      "load_s": 0.013,
+      "cpu_mhz_after": 2803
+    },
+    {
+      "eval_count": 108,
+      "eval_rate_tps": 16.84,
+      "load_s": 0.012,
+      "cpu_mhz_after": 2803
+    },
+    {
+      "eval_count": 108,
+      "eval_rate_tps": 16.97,
+      "load_s": 0.013,
+      "cpu_mhz_after": 2803
+    },
+    {
+      "eval_count": 108,
+      "eval_rate_tps": 17.2,
+      "load_s": 0.011,
+      "cpu_mhz_after": 2803
+    },
+    {
+      "eval_count": 108,
+      "eval_rate_tps": 17.18,
+      "load_s": 0.014,
+      "cpu_mhz_after": 2803
+    },
+    {
+      "eval_count": 108,
+      "eval_rate_tps": 16.97,
+      "load_s": 0.016,
+      "cpu_mhz_after": 2803
+    },
+    {
+      "eval_count": 108,
+      "eval_rate_tps": 16.89,
+      "load_s": 0.011,
+      "cpu_mhz_after": 2803
+    },
+    {
+      "eval_count": 108,
+      "eval_rate_tps": 16.83,
+      "load_s": 0.016,
+      "cpu_mhz_after": 2803
+    },
+    {
+      "eval_count": 108,
+      "eval_rate_tps": 16.96,
+      "load_s": 0.012,
+      "cpu_mhz_after": 2803
+    },
+    {
+      "eval_count": 108,
+      "eval_rate_tps": 16.83,
+      "load_s": 0.014,
+      "cpu_mhz_after": 2803
+    }
+  ]
+}
