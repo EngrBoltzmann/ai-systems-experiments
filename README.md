@@ -19,7 +19,8 @@ Companion repository to the YouTube channel **Engr Boltzmann**.
 
 ## Experiments
 
-None published yet. The first entries will appear here.
+- [Llama 3.2 1B generation speed on a 2-core CPU](experiments/ollama-1b-speed/README.md)
+- [Tool-use reliability of Llama 3.2 1B](experiments/tool-use-1b/README.md)
 
 ## Disclosure
 
