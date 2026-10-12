@@ -42,3 +42,29 @@ Raw data: `results-20261011-214853.json`
 ## Reproduce
 1. `ollama pull llama3.2:1b`, then `pip install psutil`
 2. `python tools\tool_test.py 5 0 30`
+
+## Run 2: reworded `add` description
+
+Same model, prompts, seeds, temperature and scorer as run 1. Only one thing changed: the `add` tool description, in `tools/tool_test_v2.py`.
+
+- Run 1 (original description "Add two integers"): `results-20261011-214853.json`
+- Run 2 (new description "Add two integers together. Use for plus, sum, total and addition. Do not use for multiplication."): `results-20261012-020332.json`
+
+| | Run 1 | Run 2 |
+|---|---|---|
+| Strict pass | 30.0% (45/150) | 32.7% (49/150) |
+| Lenient pass | 56.7% (85/150) | 70.0% (105/150) |
+| add group correct | 30/50 | 50/50 |
+| add group `wrong_tool` | 20 | 0 |
+| no-tool group correct | 5/50 | 5/50 |
+
+Conditions for run 2: plugged in, Windows "Better performance" mode, apps closed, sleep set to Never, laptop left alone apart from one mistyped command near the end. Timing is not reported.
+
+What it shows:
+- The 4 addition prompts that failed in run 1 (a04, a06, a08, a09) passed in run 2.
+- The model still called a tool on 45 of 50 questions that needed none, so that failure is separate.
+- Strict pass barely moved, because numbers still mostly arrive as strings.
+
+Limits:
+- I changed two things in one sentence (more detail, and "do not use for multiplication"). I did not test them separately, so I cannot say which mattered.
+- Effective sample size is still 30 prompts. One model, one machine, one prompt set.
