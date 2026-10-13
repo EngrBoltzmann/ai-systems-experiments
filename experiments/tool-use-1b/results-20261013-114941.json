@@ -1,0 +1,2900 @@
+{
+  "model": "llama3.2:1b",
+  "summary": {
+    "calls": 150,
+    "prompts": 30,
+    "repeats": 5,
+    "temperature": 0.0,
+    "strict_pass_pct": 40.0,
+    "lenient_pass_pct": 66.7,
+    "categories": {
+      "correct_lenient_only": 40,
+      "correct_strict": 60,
+      "tool_called_unneeded": 50
+    },
+    "by_group": {
+      "m": {
+        "correct_lenient_only": 35,
+        "correct_strict": 15
+      },
+      "a": {
+        "correct_strict": 45,
+        "correct_lenient_only": 5
+      },
+      "n": {
+        "tool_called_unneeded": 50
+      }
+    },
+    "prompts_with_varying_repeats": 30,
+    "minutes": 11.6
+  },
+  "rows": [
+    {
+      "id": "m01",
+      "repeat": 0,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_47mu40ty",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "b": "47",
+              "a": "23"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m01",
+      "repeat": 1,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_wnb7hgv0",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "b": "47",
+              "a": "23"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m01",
+      "repeat": 2,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_y3tnzble",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "23",
+              "b": "47"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m01",
+      "repeat": 3,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_p5tq4x2y",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "23",
+              "b": "47"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m01",
+      "repeat": 4,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_c3gn2337",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "23",
+              "b": "47"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m02",
+      "repeat": 0,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_ret6gypy",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "156",
+              "b": "12"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m02",
+      "repeat": 1,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_t9vwyjm4",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "156",
+              "b": "12"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m02",
+      "repeat": 2,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_9dmkzqzj",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "156",
+              "b": "12"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m02",
+      "repeat": 3,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_rj125iia",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "156",
+              "b": "12"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m02",
+      "repeat": 4,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_zouehyvz",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "156",
+              "b": "12"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m03",
+      "repeat": 0,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_8v71fnfg",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "89",
+              "b": "64"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m03",
+      "repeat": 1,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_2k8euejd",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "89",
+              "b": "64"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m03",
+      "repeat": 2,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_z8zpfdga",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "89",
+              "b": "64"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m03",
+      "repeat": 3,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_jxv9jvkw",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "89",
+              "b": "64"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m03",
+      "repeat": 4,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_2jevyx7g",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "89",
+              "b": "64"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m04",
+      "repeat": 0,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_vbvt0tt1",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": 1500,
+              "b": 8
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m04",
+      "repeat": 1,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_tyeowghn",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": 1500,
+              "b": 8
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m04",
+      "repeat": 2,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_8q0myh14",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": 1500,
+              "b": 8
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m04",
+      "repeat": 3,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_zv7h5nc3",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": 1500,
+              "b": 8
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m04",
+      "repeat": 4,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_msd8nqal",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": 1500,
+              "b": 8
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m05",
+      "repeat": 0,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_e50m8ges",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": 7,
+              "b": 365
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m05",
+      "repeat": 1,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_uyhfujsc",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": 7,
+              "b": 365
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m05",
+      "repeat": 2,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_s0c6y4vw",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": 7,
+              "b": 365
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m05",
+      "repeat": 3,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_vytz4l1t",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": 7,
+              "b": 365
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m05",
+      "repeat": 4,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_bi7umuoz",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": 7,
+              "b": 365
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m06",
+      "repeat": 0,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_egw3n9ko",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "b": "123",
+              "a": "321"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m06",
+      "repeat": 1,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_7zj3dcsm",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "321",
+              "b": "123"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m06",
+      "repeat": 2,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_6s7mvhre",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "321",
+              "b": "123"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m06",
+      "repeat": 3,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_ms9ykmu0",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "321",
+              "b": "123"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m06",
+      "repeat": 4,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_5zpxd7k3",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "321",
+              "b": "123"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m07",
+      "repeat": 0,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_s69dorrn",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": 45,
+              "b": 45
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m07",
+      "repeat": 1,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_oonyd2pi",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": 45,
+              "b": 45
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m07",
+      "repeat": 2,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_84b34koo",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "b": 45,
+              "a": 45
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m07",
+      "repeat": 3,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_xbsm3m0e",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": 45,
+              "b": 45
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m07",
+      "repeat": 4,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_ffrioahd",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": 45,
+              "b": 45
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m08",
+      "repeat": 0,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_pzjkv4an",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "18",
+              "b": "250"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m08",
+      "repeat": 1,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_lroucj32",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "18",
+              "b": "250"
+            }
+          }
+        }
+      ],
+      "content": "}\n{\"type\":\"function\",\"function\":{\"name\":\"get_weather\",\"description\":\"Get the current weather for a city\",\"parameters\":{\"city\": \"New York\"}}}"
+    },
+    {
+      "id": "m08",
+      "repeat": 2,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_1vzbohr1",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "b": "250",
+              "a": "18"
+            }
+          }
+        }
+      ],
+      "content": "}\n{\"type\":\"function\",\"function\":{\"name\":\"get_weather\",\"description\":\"Get the current weather for a city\",\"parameters\":{\"city\": \"New York\"}}}"
+    },
+    {
+      "id": "m08",
+      "repeat": 3,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_yt3ldbls",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "18",
+              "b": "250"
+            }
+          }
+        }
+      ],
+      "content": "}\n{\"type\":\"function\",\"function\":{\"name\":\"get_weather\",\"description\":\"Get the current weather for a city\",\"parameters\":{\"city\": \"New York\"}}}"
+    },
+    {
+      "id": "m08",
+      "repeat": 4,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_kyj5owe4",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "18",
+              "b": "250"
+            }
+          }
+        }
+      ],
+      "content": "}\n{\"type\":\"function\",\"function\":{\"name\":\"get_weather\",\"description\":\"Get the current weather for a city\",\"parameters\":{\"city\": \"New York\"}}}"
+    },
+    {
+      "id": "m09",
+      "repeat": 0,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_g8gnw0z9",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "999",
+              "b": "3"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m09",
+      "repeat": 1,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_fofg3bbq",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "999",
+              "b": "3"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m09",
+      "repeat": 2,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_drpwdi41",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "999",
+              "b": "3"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m09",
+      "repeat": 3,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_wthmxmfp",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "999",
+              "b": "3"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m09",
+      "repeat": 4,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_kmfff6z6",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "999",
+              "b": "3"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "m10",
+      "repeat": 0,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_61fq5xc0",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "b": "128",
+              "a": "64"
+            }
+          }
+        }
+      ],
+      "content": "}\n{\"type\":\"function\",\"function\":{\"name\":\"add\",\"description\":\"Add two integers together. Use for plus, sum, total and addition. Do not use for multiplication.\",\"parameters\":{\"a\": \"64\",\"b\": \"128\"}}}\n{\"type\":\"function\",\"function\":{\"name\":\"get_weather\",\"description\":\"Get the current weather for a city\",\"parameters\":{\"city\": \"New York\"}}}"
+    },
+    {
+      "id": "m10",
+      "repeat": 1,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_l4tvfo06",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "64",
+              "b": "128"
+            }
+          }
+        }
+      ],
+      "content": "}\n{\"type\":\"function\",\"function\":{\"name\":\"add\",\"description\":\"Add two integers together. Use for plus, sum, total and addition. Do not use for multiplication.\",\"parameters\":{\"a\": \"64\",\"b\": \"128\"}}}\n{\"type\":\"function\",\"function\":{\"name\":\"get_weather\",\"description\":\"Get the current weather for a city\",\"parameters\":{\"city\": \"New York\"}}}"
+    },
+    {
+      "id": "m10",
+      "repeat": 2,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_mj5h5xqx",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "64",
+              "b": "128"
+            }
+          }
+        }
+      ],
+      "content": "}\n{\"type\":\"function\",\"function\":{\"name\":\"add\",\"description\":\"Add two integers together. Use for plus, sum, total and addition. Do not use for multiplication.\",\"parameters\":{\"a\": \"64\",\"b\": \"128\"}}}\n{\"type\":\"function\",\"function\":{\"name\":\"get_weather\",\"description\":\"Get the current weather for a city\",\"parameters\":{\"city\": \"New York\"}}}"
+    },
+    {
+      "id": "m10",
+      "repeat": 3,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_uietn5cp",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "64",
+              "b": "128"
+            }
+          }
+        }
+      ],
+      "content": "}\n{\"type\":\"function\",\"function\":{\"name\":\"add\",\"description\":\"Add two integers together. Use for plus, sum, total and addition. Do not use for multiplication.\",\"parameters\":{\"a\": \"64\",\"b\": \"128\"}}}\n{\"type\":\"function\",\"function\":{\"name\":\"get_weather\",\"description\":\"Get the current weather for a city\",\"parameters\":{\"city\": \"New York\"}}}"
+    },
+    {
+      "id": "m10",
+      "repeat": 4,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_32hj64mc",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "64",
+              "b": "128"
+            }
+          }
+        }
+      ],
+      "content": "}\n{\"type\":\"function\",\"function\":{\"name\":\"add\",\"description\":\"Add two integers together. Use for plus, sum, total and addition. Do not use for multiplication.\",\"parameters\":{\"a\": \"64\",\"b\": \"128\"}}}\n{\"type\":\"function\",\"function\":{\"name\":\"get_weather\",\"description\":\"Get the current weather for a city\",\"parameters\":{\"city\": \"New York\"}}}"
+    },
+    {
+      "id": "a01",
+      "repeat": 0,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_si5t1ph3",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "b": 74,
+              "a": 58
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a01",
+      "repeat": 1,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_8gf250e4",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 58,
+              "b": 74
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a01",
+      "repeat": 2,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_u2aopgxf",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 58,
+              "b": 74
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a01",
+      "repeat": 3,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_l7en188m",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 58,
+              "b": 74
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a01",
+      "repeat": 4,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_u1sz4p2u",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "b": 74,
+              "a": 58
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a02",
+      "repeat": 0,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_rr9g41k0",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 1200,
+              "b": 345
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a02",
+      "repeat": 1,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_puipeqmh",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 1200,
+              "b": 345
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a02",
+      "repeat": 2,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_5sewkcch",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 1200,
+              "b": 345
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a02",
+      "repeat": 3,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_17sxnt3d",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 1200,
+              "b": 345
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a02",
+      "repeat": 4,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_ese5bblf",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 1200,
+              "b": 345
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a03",
+      "repeat": 0,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_zebdmvsg",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 17,
+              "b": 29
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a03",
+      "repeat": 1,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_d53nk0c4",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 17,
+              "b": 29
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a03",
+      "repeat": 2,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_a1algaui",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 17,
+              "b": 29
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a03",
+      "repeat": 3,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_0b8rh8y4",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 17,
+              "b": 29
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a03",
+      "repeat": 4,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_vp911axr",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 17,
+              "b": 29
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a04",
+      "repeat": 0,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_afvgt7cr",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 640,
+              "b": 360
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a04",
+      "repeat": 1,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_0pbhud6j",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 640,
+              "b": 360
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a04",
+      "repeat": 2,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_4kvywjj1",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 640,
+              "b": 360
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a04",
+      "repeat": 3,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_js2nu02t",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 640,
+              "b": 360
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a04",
+      "repeat": 4,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_vlqhpxaj",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 640,
+              "b": 360
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a05",
+      "repeat": 0,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_rxjtki4k",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "b": 105,
+              "a": 95
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a05",
+      "repeat": 1,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_y1lde8ov",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 95,
+              "b": 105
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a05",
+      "repeat": 2,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_8tg2feda",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 95,
+              "b": 105
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a05",
+      "repeat": 3,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_rz8z93b8",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 95,
+              "b": 105
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a05",
+      "repeat": 4,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_pv8z8pgu",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 95,
+              "b": 105
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a06",
+      "repeat": 0,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_vhe9t93a",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 33,
+              "b": 67
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a06",
+      "repeat": 1,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_u7nvdmz9",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "b": 67,
+              "a": 33
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a06",
+      "repeat": 2,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_g6gj9c43",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "b": 67,
+              "a": 33
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a06",
+      "repeat": 3,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_ajpxfv4a",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 33,
+              "b": 67
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a06",
+      "repeat": 4,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_l8ea78kq",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 33,
+              "b": 67
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a07",
+      "repeat": 0,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_6hh751nj",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 250,
+              "b": 750
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a07",
+      "repeat": 1,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_b0ty985o",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 250,
+              "b": 750
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a07",
+      "repeat": 2,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_kjgaldr2",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 250,
+              "b": 750
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a07",
+      "repeat": 3,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_770q95z7",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 250,
+              "b": 750
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a07",
+      "repeat": 4,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_fwqdkh72",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 250,
+              "b": 750
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a08",
+      "repeat": 0,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_s73jexyx",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": "81",
+              "b": "19"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a08",
+      "repeat": 1,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_oiipgylh",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": "81",
+              "b": "19"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a08",
+      "repeat": 2,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_ezw6my5l",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": "81",
+              "b": "19"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a08",
+      "repeat": 3,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_j1oaycpk",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": "81",
+              "b": "19"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a08",
+      "repeat": 4,
+      "category": "correct_lenient_only",
+      "calls": [
+        {
+          "id": "call_zgb73enc",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": "81",
+              "b": "19"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a09",
+      "repeat": 0,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_hhj0j653",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 2000,
+              "b": 2026
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a09",
+      "repeat": 1,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_e9taowq8",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 2000,
+              "b": 2026
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a09",
+      "repeat": 2,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_yxtl30ny",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 2000,
+              "b": 2026
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a09",
+      "repeat": 3,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_eikjynjb",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 2000,
+              "b": 2026
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a09",
+      "repeat": 4,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_az0t5bro",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 2000,
+              "b": 2026
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a10",
+      "repeat": 0,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_l6qzxd1l",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 12,
+              "b": 88
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a10",
+      "repeat": 1,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_ku4ees62",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 12,
+              "b": 88
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a10",
+      "repeat": 2,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_8rt9lhef",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 12,
+              "b": 88
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a10",
+      "repeat": 3,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_w9zk5xnb",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 12,
+              "b": 88
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "a10",
+      "repeat": 4,
+      "category": "correct_strict",
+      "calls": [
+        {
+          "id": "call_pl5v0go2",
+          "function": {
+            "index": 0,
+            "name": "add",
+            "arguments": {
+              "a": 12,
+              "b": 88
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "n01",
+      "repeat": 0,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_v1ifcnqi",
+          "function": {
+            "index": 0,
+            "name": "get_weather",
+            "arguments": {
+              "city": "Paris"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "n01",
+      "repeat": 1,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_6hd28goo",
+          "function": {
+            "index": 0,
+            "name": "get_weather",
+            "arguments": {
+              "city": "Paris"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "n01",
+      "repeat": 2,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_3s19m0pp",
+          "function": {
+            "index": 0,
+            "name": "get_weather",
+            "arguments": {
+              "city": "Paris"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "n01",
+      "repeat": 3,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_iny9jv9z",
+          "function": {
+            "index": 0,
+            "name": "get_weather",
+            "arguments": {
+              "city": "Paris"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "n01",
+      "repeat": 4,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_12fk3jij",
+          "function": {
+            "index": 0,
+            "name": "get_weather",
+            "arguments": {
+              "city": "Paris"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "n02",
+      "repeat": 0,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_dxj4cdxl",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "2",
+              "b": "3"
+            }
+          }
+        }
+      ],
+      "content": "}\n{\"type\":\"function\",\"function\":{\"name\":\"add\",\"description\":\"Add two integers together. Use for plus, sum, total and addition. Do not use for multiplication.\",\"parameters\":{\"a\": \"5\",\"b\": \"7\"}}}\n{\"type\":\"function\",\"function\":{\"name\":\"get_weather\",\"description\":\"Get the current weather for a city\",\"parameters\":{\"city\": \"Rome\"}}}"
+    },
+    {
+      "id": "n02",
+      "repeat": 1,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_fx1ixy66",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "2",
+              "b": "3"
+            }
+          }
+        }
+      ],
+      "content": "}\n{\"type\":\"function\",\"function\":{\"name\":\"add\",\"description\":\"Add two integers together. Use for plus, sum, total and addition. Do not use for multiplication.\",\"parameters\":{\"a\": \"5\",\"b\": \"7\"}}}\n{\"type\":\"function\",\"function\":{\"name\":\"get_weather\",\"description\":\"Get the current weather for a city\",\"parameters\":{\"city\": \"Rome\"}}}"
+    },
+    {
+      "id": "n02",
+      "repeat": 2,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_ksytru5g",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "2",
+              "b": "3"
+            }
+          }
+        }
+      ],
+      "content": "}\n{\"type\":\"function\",\"function\":{\"name\":\"add\",\"description\":\"Add two integers together. Use for plus, sum, total and addition. Do not use for multiplication.\",\"parameters\":{\"a\": \"5\",\"b\": \"7\"}}}\n{\"type\":\"function\",\"function\":{\"name\":\"get_weather\",\"description\":\"Get the current weather for a city\",\"parameters\":{\"city\": \"Rome\"}}}"
+    },
+    {
+      "id": "n02",
+      "repeat": 3,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_kf1qbzoe",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "b": "3",
+              "a": "2"
+            }
+          }
+        }
+      ],
+      "content": "}\n{\"type\":\"function\",\"function\":{\"name\":\"add\",\"description\":\"Add two integers together. Use for plus, sum, total and addition. Do not use for multiplication.\",\"parameters\":{\"a\": \"5\",\"b\": \"7\"}}}\n{\"type\":\"function\",\"function\":{\"name\":\"get_weather\",\"description\":\"Get the current weather for a city\",\"parameters\":{\"city\": \"Rome\"}}}"
+    },
+    {
+      "id": "n02",
+      "repeat": 4,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_1e1owoef",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "2",
+              "b": "3"
+            }
+          }
+        }
+      ],
+      "content": "}\n{\"type\":\"function\",\"function\":{\"name\":\"add\",\"description\":\"Add two integers together. Use for plus, sum, total and addition. Do not use for multiplication.\",\"parameters\":{\"a\": \"5\",\"b\": \"7\"}}}\n{\"type\":\"function\",\"function\":{\"name\":\"get_weather\",\"description\":\"Get the current weather for a city\",\"parameters\":{\"city\": \"Rome\"}}}"
+    },
+    {
+      "id": "n03",
+      "repeat": 0,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_xd826378",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": 10,
+              "b": 5
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "n03",
+      "repeat": 1,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_f0mre3v8",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": 10,
+              "b": 5
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "n03",
+      "repeat": 2,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_9z1tfoh1",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": 10,
+              "b": 5
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "n03",
+      "repeat": 3,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_mi1fj742",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": 10,
+              "b": 5
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "n03",
+      "repeat": 4,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_uc7v8o0l",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": 10,
+              "b": 5
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "n04",
+      "repeat": 0,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_ajx3jpj2",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "type": "object",
+              "required": [
+                "a",
+                "b"
+              ],
+              "properties": {
+                "a": {
+                  "type": "integer"
+                },
+                "b": {
+                  "type": "integer"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "content": "}\n{\"type\":\"function\",\"function\":{\"name\":\"add\",\"description\":\"Add two integers together. Use for plus, sum, total and addition. Do not use for multiplication.\",\"parameters\":{\"type\":\"object\",\"required\":[\"a\",\"b\"],\"properties\":{\"a\":{\"type\":\"integer\"},\"b\":{\"type\":\"integer\"}}}}}\n{\"type\":\"function\",\"function\":{\"name\":\"get_weather\",\"description\":\"Get the current weather for a city\",\"parameters\":{\"type\":\"object\",\"required\":[\"city\"],\"properties\":{\"city\":{\"type\":\"string\"}}}}}\n{\"type\":\"function\",\"function\":{\"name\":\"multiply\",\"description\":\"Multiply two integers\",\"parameters\":{\"type\":\"object\",\"required\":[\"a\",\"b\"],\"properties\":{\"a\":{\"type\":\"integer\"},\"b\":{\"type\":\"integer\"}}}}}\n{\"type\":\"function\",\"function\":{\"name\":\"add\",\"description\":\"Add two integers together. Use for plus, sum, total and addition. Do not use for multiplication.\",\"parameters\":{\"type\":\"object\",\"required\":[\"a\",\"b\"],\"properties\":{\"a\":{\"type\":\"integer\"},\"b\":{\"type\":\"integer\"}}}}}\n{\"type\":\"function\",\"function\":{\"name\":\"get_weather\",\"description\":\"Get the current weather for a city\",\"parameters\":{\"type\":\"object\",\"required\":[\"city\"],\"properties\":{\"city\":{\"type\":\"string\"}}}}}\n{\"type"
+    },
+    {
+      "id": "n04",
+      "repeat": 1,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_3et9tgtg",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "1",
+              "b": "2"
+            }
+          }
+        }
+      ],
+      "content": "}\n{\"type\":\"function\",\"function\":{\"name\":\"get_weather\",\"description\":\"Get the current weather for a city\",\"parameters\":{\"city\": \"London\"}}}\n{\"type\":\"function\",\"function\":{\"name\":\"multiply\",\"description\":\"Multiply two integers\",\"parameters\":{\"a\": \"5\",\"b\": \"3\"}}}\n{\"type\":\"function\",\"function\":{\"name\":\"get_weather\",\"description\":\"Get the current weather for a city\",\"parameters\":{\"city\": \"New York\"}}}"
+    },
+    {
+      "id": "n04",
+      "repeat": 2,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_ua1cdfdw",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "1",
+              "b": "2"
+            }
+          }
+        }
+      ],
+      "content": "}\n{\"type\":\"function\",\"function\":{\"name\":\"get_weather\",\"description\":\"Get the current weather for a city\",\"parameters\":{\"city\": \"London\"}}}\n{\"type\":\"function\",\"function\":{\"name\":\"multiply\",\"description\":\"Multiply two integers\",\"parameters\":{\"a\": \"5\",\"b\": \"3\"}}}\n{\"type\":\"function\",\"function\":{\"name\":\"get_weather\",\"description\":\"Get the current weather for a city\",\"parameters\":{\"city\": \"New York\"}}}"
+    },
+    {
+      "id": "n04",
+      "repeat": 3,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_8uvexo8p",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "1",
+              "b": "2"
+            }
+          }
+        }
+      ],
+      "content": "}\n{\"type\":\"function\",\"function\":{\"name\":\"get_weather\",\"description\":\"Get the current weather for a city\",\"parameters\":{\"city\": \"London\"}}}\n{\"type\":\"function\",\"function\":{\"name\":\"multiply\",\"description\":\"Multiply two integers\",\"parameters\":{\"a\": \"5\",\"b\": \"3\"}}}\n{\"type\":\"function\",\"function\":{\"name\":\"get_weather\",\"description\":\"Get the current weather for a city\",\"parameters\":{\"city\": \"New York\"}}}"
+    },
+    {
+      "id": "n04",
+      "repeat": 4,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_vr666d61",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "1",
+              "b": "2"
+            }
+          }
+        }
+      ],
+      "content": "}\n{\"type\":\"function\",\"function\":{\"name\":\"get_weather\",\"description\":\"Get the current weather for a city\",\"parameters\":{\"city\": \"London\"}}}\n{\"type\":\"function\",\"function\":{\"name\":\"multiply\",\"description\":\"Multiply two integers\",\"parameters\":{\"a\": \"5\",\"b\": \"3\"}}}\n{\"type\":\"function\",\"function\":{\"name\":\"get_weather\",\"description\":\"Get the current weather for a city\",\"parameters\":{\"city\": \"New York\"}}}"
+    },
+    {
+      "id": "n05",
+      "repeat": 0,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_j5byfwsc",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "3",
+              "b": "4"
+            }
+          }
+        }
+      ],
+      "content": "}\n{\"type\":\"function\",\"function\":{\"name\": \"multiply\", \"parameters\": {\"a\": \"5\", \"b\": \"6\"}}}\n{\"type\":\"function\",\"function\":{\"name\": \"add\", \"parameters\": {\"a\": \"10\", \"b\": \"20\"}}}\n\n{\"type\":\"function\",\"function\":{\"name\": \"get_weather\", \"parameters\": {\"city\": \"New York\"}}}"
+    },
+    {
+      "id": "n05",
+      "repeat": 1,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_cdo9p41r",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "3",
+              "b": "4"
+            }
+          }
+        }
+      ],
+      "content": "}\n{\"type\":\"function\",\"function\":{\"name\": \"multiply\", \"parameters\": {\"a\": \"5\", \"b\": \"6\"}}}\n{\"type\":\"function\",\"function\":{\"name\": \"add\", \"parameters\": {\"a\": \"10\", \"b\": \"20\"}}}\n\n{\"type\":\"function\",\"function\":{\"name\": \"get_weather\", \"parameters\": {\"city\": \"New York\"}}}"
+    },
+    {
+      "id": "n05",
+      "repeat": 2,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_p6s1cb01",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "3",
+              "b": "4"
+            }
+          }
+        }
+      ],
+      "content": "}\n{\"type\":\"function\",\"function\":{\"name\": \"multiply\", \"parameters\": {\"a\": \"5\", \"b\": \"6\"}}}\n{\"type\":\"function\",\"function\":{\"name\": \"add\", \"parameters\": {\"a\": \"10\", \"b\": \"20\"}}}\n\n{\"type\":\"function\",\"function\":{\"name\": \"get_weather\", \"parameters\": {\"city\": \"New York\"}}}"
+    },
+    {
+      "id": "n05",
+      "repeat": 3,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_byf6y5ui",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "3",
+              "b": "4"
+            }
+          }
+        }
+      ],
+      "content": "}\n{\"type\":\"function\",\"function\":{\"name\": \"multiply\", \"parameters\": {\"a\": \"5\", \"b\": \"6\"}}}\n{\"type\":\"function\",\"function\":{\"name\": \"add\", \"parameters\": {\"a\": \"10\", \"b\": \"20\"}}}\n\n{\"type\":\"function\",\"function\":{\"name\": \"get_weather\", \"parameters\": {\"city\": \"New York\"}}}"
+    },
+    {
+      "id": "n05",
+      "repeat": 4,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_qcip69nv",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "3",
+              "b": "4"
+            }
+          }
+        }
+      ],
+      "content": "}\n{\"type\":\"function\",\"function\":{\"name\": \"multiply\", \"parameters\": {\"a\": \"5\", \"b\": \"6\"}}}\n{\"type\":\"function\",\"function\":{\"name\": \"add\", \"parameters\": {\"a\": \"10\", \"b\": \"20\"}}}\n\n{\"type\":\"function\",\"function\":{\"name\": \"get_weather\", \"parameters\": {\"city\": \"New York\"}}}"
+    },
+    {
+      "id": "n06",
+      "repeat": 0,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_n3q66igt",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "b": "18",
+              "a": "1"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "n06",
+      "repeat": 1,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_9xic43q7",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "1",
+              "b": "18"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "n06",
+      "repeat": 2,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_q0c52h4o",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "1",
+              "b": "18"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "n06",
+      "repeat": 3,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_8ebbkzn3",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "1",
+              "b": "18"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "n06",
+      "repeat": 4,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_kmmczvc1",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "b": "18",
+              "a": "1"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "n07",
+      "repeat": 0,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_c3n3b7mf",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "type": "object",
+              "required": [
+                "a",
+                "b"
+              ],
+              "properties": {
+                "a": {
+                  "type": "integer"
+                },
+                "b": {
+                  "type": "integer"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "content": "}\n{\"type\":\"function\",\"function\":{\"name\":\"add\",\"description\":\"Add two integers together. Use for plus, sum, total and addition. Do not use for multiplication.\",\"parameters\":{\"type\":\"object\",\"required\":[\"a\",\"b\"],\"properties\":{\"a\":{\"type\":\"integer\"},\"b\":{\"type\":\"integer\"}}}}}\n{\"type\":\"function\",\"function\":{\"name\":\"get_weather\",\"description\":\"Get the current weather for a city\",\"parameters\":{\"type\":\"object\",\"required\":[\"city\"],\"properties\":{\"city\":{\"type\":\"string\"}}}}}\n\n{\"type\":\"function\",\"function\":\"translateGoodMorning\", \"name\": \"translateGoodMorning\", \"parameters\": {\"ws\": \"good morning\", \"to\": \"French\"}}"
+    },
+    {
+      "id": "n07",
+      "repeat": 1,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_7tycwf8t",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "5",
+              "b": "3"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "n07",
+      "repeat": 2,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_gwtbkb3r",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "5",
+              "b": "3"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "n07",
+      "repeat": 3,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_epis3grw",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "5",
+              "b": "3"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "n07",
+      "repeat": 4,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_5p8exvlh",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "5",
+              "b": "3"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "n08",
+      "repeat": 0,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_ggw33yu8",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "8",
+              "b": "2"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "n08",
+      "repeat": 1,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_7rbmh407",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "b": "8",
+              "a": "RAM"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "n08",
+      "repeat": 2,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_bwirvcre",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "RAM",
+              "b": "8"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "n08",
+      "repeat": 3,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_nl9vd620",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "RAM",
+              "b": "8"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "n08",
+      "repeat": 4,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_t5aaxkfg",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "RAM",
+              "b": "8"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "n09",
+      "repeat": 0,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_v9xdg0cq",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": 5,
+              "b": 3
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "n09",
+      "repeat": 1,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_fdk5st7m",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": 5,
+              "b": 3
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "n09",
+      "repeat": 2,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_zp1qc0ml",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": 5,
+              "b": 3
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "n09",
+      "repeat": 3,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_b7p8agpw",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": 5,
+              "b": 3
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "n09",
+      "repeat": 4,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_ur6ggk25",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": 5,
+              "b": 3
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "n10",
+      "repeat": 0,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_c5sgn4es",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": "1",
+              "b": "10"
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "n10",
+      "repeat": 1,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_z0gt4sxj",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": 5,
+              "b": 2
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "n10",
+      "repeat": 2,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_mego0z7y",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": 5,
+              "b": 2
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "n10",
+      "repeat": 3,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_6i1sjvgx",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": 5,
+              "b": 2
+            }
+          }
+        }
+      ],
+      "content": ""
+    },
+    {
+      "id": "n10",
+      "repeat": 4,
+      "category": "tool_called_unneeded",
+      "calls": [
+        {
+          "id": "call_cq2y7zrs",
+          "function": {
+            "index": 0,
+            "name": "multiply",
+            "arguments": {
+              "a": 5,
+              "b": 2
+            }
+          }
+        }
+      ],
+      "content": ""
+    }
+  ]
+}
