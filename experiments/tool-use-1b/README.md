@@ -68,3 +68,32 @@ What it shows:
 Limits:
 - I changed two things in one sentence (more detail, and "do not use for multiplication"). I did not test them separately, so I cannot say which mattered.
 - Effective sample size is still 30 prompts. One model, one machine, one prompt set.
+## Runs 3 and 4: token cap, then system message
+
+Two earlier attempts at run 4 crashed with `TimeoutError` after a call got no reply for 600 seconds. They saved nothing and are not in the results. The cause was not identified. One stalled on prompt n04. After that, `tools/tool_test_v3.py` and `tools/tool_test_v3_base.py` use a 120-second timeout and a cap of 300 generated tokens per answer (`num_predict`).
+
+- Baseline: run 2's `add` description plus the 300-token cap, no system message (`tools/tool_test_v3_base.py`): `results-20261013-044244.json`
+- v3: the same, plus a system message (`tools/tool_test_v3.py`): `results-20261013-114941.json`
+
+System message: "If the question can be answered without a tool, answer directly. Only use a tool for arithmetic or weather."
+
+| | Run 2 (no cap) | Baseline (cap) | v3 (cap + system message) |
+|---|---|---|---|
+| Strict pass | 32.7% | 32.7% | 40.0% |
+| Lenient pass | 70.0% | 70.0% | 66.7% |
+| multiply group correct | 50/50 | 50/50 | 50/50 |
+| add group correct | 50/50 | 50/50 | 50/50 |
+| no-tool group correct | 5/50 | 5/50 | 0/50 |
+
+What it shows:
+- The 300-token cap did not change any scored category (baseline matches run 2).
+- The system message did not stop the model calling a tool on questions that needed none. It called one on all 50 no-tool calls.
+- Strict pass rose because numbers arrived as integers more often (60 strict-correct against 44), not because of better reasoning. I did not test why.
+- Lenient pass fell only because the 5 correct no-tool calls became failures.
+
+Conditions: the baseline started on battery and was plugged in partway through. The v3 run was plugged in, with other apps closed and the laptop left alone, apart from one message sent just after it started. Pass rates reported, timing not reported.
+
+Limits:
+- 5/50 to 0/50 is a small change on 10 prompts. The safe claim is that the system message did not help.
+- One system message wording, one model, one machine, one prompt set. Other wordings were not tested.
+- Only the first tool call is scored.
